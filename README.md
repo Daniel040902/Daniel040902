@@ -29,22 +29,48 @@ const josue = {
 
 Desarrollador **Full Stack** apasionado por crear productos digitales completos: desde la arquitectura de la base de datos y la API hasta la interfaz que el usuario disfruta. Trabajo con tecnologías modernas, buenas prácticas y una obsesión sana por el detalle.
 
+Mi enfoque integra **desarrollo web y móvil**, **bases de datos** e **infraestructura para despliegues**. También configuro **entornos de desarrollo y entornos virtualizados** en **Linux —Debian 13 y Ubuntu— y Windows 10/11**.
+
 ---
 
-## <samp>🛠️ Tecnologías</samp>
+## <samp>🛠️ Tecnologías y entorno</samp>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,laravel,php,js,postgres,docker,tailwind,git,github&theme=dark&perline=9" alt="React, Laravel, PHP, JavaScript, PostgreSQL, Docker, Tailwind, Git, GitHub" />
+<h4><samp>01 / SISTEMAS OPERATIVOS</samp></h4>
 
-<br/><br/>
+<img src="https://skillicons.dev/icons?i=debian,ubuntu,linux,windows&theme=dark" alt="Debian 13, Ubuntu, Linux y Windows 10/11" width="200" />
+
+<p><sub>Debian 13 · Ubuntu · Linux · Windows 10/11</sub></p>
+
+<h4><samp>02 / FRONTEND WEB</samp></h4>
+
+<img src="https://skillicons.dev/icons?i=react,js,html,css,tailwind,vite&theme=dark" alt="React, JavaScript, HTML5, CSS3, Tailwind CSS y Vite" width="300" />
+
+<p><sub>React · JavaScript · HTML5 · CSS3 · Tailwind CSS · Vite</sub></p>
+
+<h4><samp>03 / BACKEND Y BASES DE DATOS</samp></h4>
+
+<img src="https://skillicons.dev/icons?i=php,laravel,postgres&theme=dark" alt="PHP, Laravel y PostgreSQL" width="150" />
+
+<p><sub>PHP · Laravel · APIs REST · PostgreSQL · SQL</sub></p>
+
+<h4><samp>04 / APLICACIONES MÓVILES</samp></h4>
 
 <img src="https://img.shields.io/badge/React_Native-050816?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
 <img src="https://img.shields.io/badge/Expo-050816?style=for-the-badge&logo=expo&logoColor=FFFFFF" alt="Expo" />
-<img src="https://img.shields.io/badge/PostgreSQL-050816?style=for-the-badge&logo=postgresql&logoColor=60A5FA" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/Laravel-050816?style=for-the-badge&logo=laravel&logoColor=FF2D20" alt="Laravel" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-050816?style=for-the-badge&logo=tailwindcss&logoColor=22D3EE" alt="Tailwind CSS" />
-<img src="https://img.shields.io/badge/Docker-050816?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+
+<h4><samp>05 / DEVOPS E INFRAESTRUCTURA</samp></h4>
+
+<img src="https://skillicons.dev/icons?i=docker,nginx,cloudflare&theme=dark" alt="Docker, Nginx y Cloudflare" width="150" />
+
+<p><sub>Docker · Docker Compose · Nginx · Cloudflare · Cloudflare Tunnel</sub></p>
+
+<h4><samp>06 / HERRAMIENTAS Y AUTOMATIZACIÓN</samp></h4>
+
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,bash&theme=dark" alt="Git, GitHub, GitHub Actions, Visual Studio Code y Bash" width="250" />
+
+<p><sub>Git · GitHub · GitHub Actions · CI/CD · Visual Studio Code · Terminal Linux · Bash</sub></p>
 
 </div>
 
