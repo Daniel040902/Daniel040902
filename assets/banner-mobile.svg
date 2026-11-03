@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="540" viewBox="0 0 640 540" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">JOSUÉ DANIEL CASTILLO — Full Stack Software Developer</title>
+  <desc id="bannerDesc">Versión móvil de la cabecera. Desarrollo web, APIs y aplicaciones móviles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#070B15"/>
+      <stop offset="1" stop-color="#0C1021"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.48" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <radialGradient id="glowViolet">
+      <stop stop-color="#8B5CF6" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="640" height="540" rx="20"/></clipPath>
+    <style>
+      .signal { stroke-dasharray: 4 22; animation: flow 9s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -104; } }
+      @media (prefers-reduced-motion: reduce) { .signal { animation: none; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="640" height="540" fill="url(#bg)"/>
+    <ellipse cx="600" cy="180" rx="360" ry="380" fill="url(#glowViolet)"/>
+    <path d="M40 0H600" stroke="url(#lineGrad)" stroke-width="3"/>
+    <path d="M40 57H58" stroke="#22D3EE" stroke-width="2"/>
+    <text x="74" y="63" fill="#A5B4CF" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" letter-spacing="2">SOFTWARE ENGINEERING</text>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+      <text x="37" y="167" fill="#F1F5F9" font-size="66" font-weight="700" letter-spacing="-2">JOSUÉ DANIEL</text>
+      <text x="35" y="259" fill="url(#nameGrad)" font-size="88" font-weight="700" letter-spacing="5">CASTILLO</text>
+      <text x="40" y="313" fill="#CAD5EB" font-size="31">Full Stack Software Developer</text>
+    </g>
+    <path d="M40 354H600" stroke="#24314B"/>
+    <path class="signal" d="M40 354H600" stroke="url(#lineGrad)" stroke-width="1.5"/>
+    <g font-family="Consolas, 'Liberation Mono', monospace">
+      <g fill="#8F9FB9" font-size="15" letter-spacing="1.5">
+        <text x="40" y="405">WEB</text>
+        <text x="228" y="405">API</text>
+        <text x="416" y="405">MOBILE</text>
+      </g>
+      <g fill="#DFE7F6" font-size="20">
+        <text x="40" y="438">React</text>
+        <text x="228" y="438">Laravel</text>
+        <text x="416" y="438">RN / Expo</text>
+      </g>
+      <text x="40" y="504" fill="#8090AB" font-size="15" letter-spacing="1">DANIEL040902 / NICARAGUA</text>
+    </g>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="538.5" rx="20" fill="none" stroke="#24314B" stroke-width="1.5"/>
+</svg>
