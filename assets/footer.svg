@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-labelledby="footerTitle">
+  <title id="footerTitle">Diseño, código y experiencia — Josué Castillo</title>
+  <defs>
+    <linearGradient id="fLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#22D3EE"/>
+      <stop offset="70%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <style>
+      .up { opacity: 0; animation: up 1s ease forwards; }
+      @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+      @media (prefers-reduced-motion: reduce) { .up { animation: none; opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="140" rx="24" fill="#050816"/>
+  <rect x="0" y="0" width="1200" height="2" fill="url(#fLine)"/>
+  <circle cx="120" cy="110" r="180" fill="#22D3EE" opacity="0.06"/>
+  <circle cx="1080" cy="30" r="200" fill="#8B5CF6" opacity="0.08"/>
+
+  <g class="up" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="62" fill="url(#fText)" font-size="22" font-weight="700" letter-spacing="6">DISEÑO · CÓDIGO · EXPERIENCIA</text>
+    <text x="600" y="98" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" letter-spacing="2">Daniel040902.github.io/portafolio</text>
+  </g>
+
+  <g fill="#22D3EE" opacity="0.7">
+    <circle cx="520" cy="118" r="2">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="122" r="2.5">
+      <animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="118" r="2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="138.5" rx="24" fill="none" stroke="#1E3A8A" stroke-width="1.5"/>
+</svg>
